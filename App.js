@@ -1,6 +1,12 @@
+// App.js
 import React from 'react';
-import BottomTabs from './src/navigation/BottomTabs';
+import { NavigationContainer } from '@react-navigation/native';
+import AppStack from './src/navigation/AppStack';
 
 export default function App() {
-  return <BottomTabs />;
+  return (
+    <NavigationContainer>
+      <AppStack />
+    </NavigationContainer>
+  );
 }
