@@ -1,18 +1,20 @@
 {
-  "name": "test_app",
-  "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
-    "expo": "~57.0.15",
-    "expo-status-bar": "~57.0.1",
+    "@expo/vector-icons": "^15.1.1",
+    "@react-navigation/bottom-tabs": "^7.18.18",
+    "@react-navigation/native": "^7.3.18",
+    "expo": "~57.0.18",
     "react": "19.2.3",
-    "react-native": "0.86.2"
+    "react-native": "^0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0"
   },
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+  "overrides": {
+    "uuid": "^11.1.1",
+    "image-size": "^2.0.2"
   },
-  "private": true
+  "devDependencies": {
+    "@react-native-community/cli": "^20.2.0",
+    "@react-native/metro-config": "^0.86.3"
+  }
 }
