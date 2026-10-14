@@ -2,11 +2,14 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import AppStack from './src/navigation/AppStack';
+import { AppProvider } from './src/context/AppContext';
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <AppStack />
-    </NavigationContainer>
+    <AppProvider>
+      <NavigationContainer>
+        <AppStack />
+      </NavigationContainer>
+    </AppProvider>
   );
 }

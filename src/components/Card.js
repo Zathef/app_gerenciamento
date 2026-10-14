@@ -25,7 +25,7 @@ export default function Card({ title, subtitle, onPress, action, onRemove }) {
         android_ripple={{ color: '#ffffff30' }}
         onPress={onPress}
       >
-        <View>
+        <View style={styles.content}>
           <Text style={styles.title}>{title}</Text>
           {subtitle && <Text style={styles.subtitle}>{subtitle}</Text>}
         </View>
