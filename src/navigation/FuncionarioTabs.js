@@ -1,7 +1,6 @@
-// src/navigation/FuncionarioTabs.js
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import MateriaisScreen from '@screens/MateriaisScreen';
+import MateriaisStack from '@navigation/MateriaisStack';
 import RelatoriosScreen from '@screens/RelatoriosScreen';
 import colors from '@styles/colors';
 import { Ionicons } from '@expo/vector-icons';
@@ -24,7 +23,7 @@ export default function FuncionarioTabs() {
         },
       })}
     >
-      <Tab.Screen name="Materiais" component={MateriaisScreen} />
+      <Tab.Screen name="Materiais" component={MateriaisStack} />
       <Tab.Screen name="Relatórios" component={RelatoriosScreen} />
     </Tab.Navigator>
   );

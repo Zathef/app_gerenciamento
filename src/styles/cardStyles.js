@@ -14,6 +14,9 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  content: {
+    flex: 1,
+  },
   cardPressed: {
     backgroundColor: '#3b4a5a',
     shadowColor: '#fff',

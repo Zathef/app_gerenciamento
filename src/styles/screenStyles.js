@@ -19,4 +19,26 @@ export default StyleSheet.create({
     color: colors.textLight,
     marginBottom: layout.spacingMedium,
   },
+  subtitle: {
+    fontSize: 16,
+    color: colors.textLight,
+    marginBottom: layout.spacingMedium,
+    textAlign: 'center',
+  },
+  actions: {
+    width: '100%',
+    alignItems: 'center',
+  },
+  summary: {
+    backgroundColor: colors.secondary,
+    borderRadius: 8,
+    padding: layout.spacingMedium,
+    marginBottom: layout.spacingMedium,
+    marginTop: layout.spacingMedium,
+  },
+  summaryLine: {
+    fontSize: 15,
+    color: colors.textLight,
+    marginBottom: 6,
+  },
 });

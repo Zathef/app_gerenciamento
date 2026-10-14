@@ -4,7 +4,9 @@
       "@styles/*": ["./src/styles/*"],
       "@components/*": ["./src/components/*"],
       "@screens/*": ["./src/screens/*"],
-      "@navigation/*": ["./src/navigation/*"]
+      "@navigation/*": ["./src/navigation/*"],
+      "@services/*": ["./src/services/*"],
+      "@context/*": ["./src/context/*"]
     }
   },
   "include": ["src"]
